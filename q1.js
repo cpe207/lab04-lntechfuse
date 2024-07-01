@@ -24,3 +24,6 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+//660612144
+//ณัฐวัตร อิธิตา
