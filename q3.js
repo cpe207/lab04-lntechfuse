@@ -3,13 +3,16 @@ function primeNumber(a) {
         return "No";
     }
     
-    for (let i = 2; i < a; i++) {
+    if (a === 2) {
+        return "Yes";
+    }
+    
+    for (let i = 2; i <= Math.sqrt(a); i++) {
         if (a % i === 0) {
             return "No";
         }
     }
     return "Yes";
-    
 }
 
 const d1 = 10;
