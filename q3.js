@@ -12,6 +12,7 @@ function primeNumber(a) {
             return "No";
         }
     }
+    
     return "Yes";
 }
 
