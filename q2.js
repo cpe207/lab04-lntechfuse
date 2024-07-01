@@ -1,5 +1,5 @@
-function arrayStringify(a) {
-  /* Your code here */
+function arrayStringify(a){
+  return a.join('');
 }
 
 const c1 = [1, 2, 3];
